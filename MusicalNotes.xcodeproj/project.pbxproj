@@ -13,6 +13,7 @@
 		E2FBED4D1DE765DF000431F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2FBED4C1DE765DF000431F4 /* Assets.xcassets */; };
 		E2FBED501DE765DF000431F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2FBED4E1DE765DF000431F4 /* LaunchScreen.storyboard */; };
 		E2FBED5B1DE765DF000431F4 /* MusicalNotesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FBED5A1DE765DF000431F4 /* MusicalNotesTests.swift */; };
+		E2FBED661DE77178000431F4 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FBED651DE77178000431F4 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		E2FBED561DE765DF000431F4 /* MusicalNotesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicalNotesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2FBED5A1DE765DF000431F4 /* MusicalNotesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicalNotesTests.swift; sourceTree = "<group>"; };
 		E2FBED5C1DE765DF000431F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2FBED651DE77178000431F4 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +63,6 @@
 			children = (
 				E2FBED441DE765DF000431F4 /* MusicalNotes */,
 				E2FBED591DE765DF000431F4 /* MusicalNotesTests */,
-				E2FBED431DE765DF000431F4 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -72,6 +73,7 @@
 				E2FBED561DE765DF000431F4 /* MusicalNotesTests.xctest */,
 			);
 			name = Products;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		E2FBED441DE765DF000431F4 /* MusicalNotes */ = {
@@ -83,6 +85,7 @@
 				E2FBED4C1DE765DF000431F4 /* Assets.xcassets */,
 				E2FBED4E1DE765DF000431F4 /* LaunchScreen.storyboard */,
 				E2FBED511DE765DF000431F4 /* Info.plist */,
+				E2FBED651DE77178000431F4 /* SecondViewController.swift */,
 			);
 			path = MusicalNotes;
 			sourceTree = "<group>";
@@ -90,6 +93,7 @@
 		E2FBED591DE765DF000431F4 /* MusicalNotesTests */ = {
 			isa = PBXGroup;
 			children = (
+				E2FBED431DE765DF000431F4 /* Products */,
 				E2FBED5A1DE765DF000431F4 /* MusicalNotesTests.swift */,
 				E2FBED5C1DE765DF000431F4 /* Info.plist */,
 			);
@@ -199,6 +203,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2FBED661DE77178000431F4 /* SecondViewController.swift in Sources */,
 				E2FBED481DE765DF000431F4 /* ViewController.swift in Sources */,
 				E2FBED461DE765DF000431F4 /* AppDelegate.swift in Sources */,
 			);
