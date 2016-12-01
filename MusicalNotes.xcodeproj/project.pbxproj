@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E2E5C03F1DF0987000DC3AFF /* tableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E5C03E1DF0987000DC3AFF /* tableViewController.swift */; };
+		E2E5C0411DF0AB9E00DC3AFF /* DescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E5C0401DF0AB9E00DC3AFF /* DescriptionViewController.swift */; };
 		E2FBED461DE765DF000431F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FBED451DE765DF000431F4 /* AppDelegate.swift */; };
 		E2FBED481DE765DF000431F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FBED471DE765DF000431F4 /* ViewController.swift */; };
 		E2FBED4B1DE765DF000431F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2FBED491DE765DF000431F4 /* Main.storyboard */; };
@@ -27,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E2E5C03E1DF0987000DC3AFF /* tableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tableViewController.swift; sourceTree = "<group>"; };
+		E2E5C0401DF0AB9E00DC3AFF /* DescriptionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DescriptionViewController.swift; sourceTree = "<group>"; };
 		E2FBED421DE765DF000431F4 /* MusicalNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicalNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2FBED451DE765DF000431F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E2FBED471DE765DF000431F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -82,10 +86,12 @@
 				E2FBED451DE765DF000431F4 /* AppDelegate.swift */,
 				E2FBED471DE765DF000431F4 /* ViewController.swift */,
 				E2FBED491DE765DF000431F4 /* Main.storyboard */,
+				E2E5C0401DF0AB9E00DC3AFF /* DescriptionViewController.swift */,
 				E2FBED4C1DE765DF000431F4 /* Assets.xcassets */,
 				E2FBED4E1DE765DF000431F4 /* LaunchScreen.storyboard */,
 				E2FBED511DE765DF000431F4 /* Info.plist */,
 				E2FBED651DE77178000431F4 /* SecondViewController.swift */,
+				E2E5C03E1DF0987000DC3AFF /* tableViewController.swift */,
 			);
 			path = MusicalNotes;
 			sourceTree = "<group>";
@@ -206,6 +212,8 @@
 				E2FBED661DE77178000431F4 /* SecondViewController.swift in Sources */,
 				E2FBED481DE765DF000431F4 /* ViewController.swift in Sources */,
 				E2FBED461DE765DF000431F4 /* AppDelegate.swift in Sources */,
+				E2E5C0411DF0AB9E00DC3AFF /* DescriptionViewController.swift in Sources */,
+				E2E5C03F1DF0987000DC3AFF /* tableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +419,7 @@
 				E2FBED611DE765DF000431F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E2FBED621DE765DF000431F4 /* Build configuration list for PBXNativeTarget "MusicalNotesTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +428,7 @@
 				E2FBED641DE765DF000431F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
