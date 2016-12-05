@@ -38,4 +38,15 @@ class tableViewController: UIViewController, UITableViewDelegate, UITableViewDat
         
         return cell
     }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        performSegue(withIdentifier: "tableSegue", sender: strings[indexPath.row])
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let guest = segue.destination as! DescriptionViewController
+        
+        guest.instrumentSelected = sender as! String
+    }
+
 }

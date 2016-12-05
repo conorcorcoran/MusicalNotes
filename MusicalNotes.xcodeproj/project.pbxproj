@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E21D0A1E1DF1D1C800327AB6 /* Violin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E21D0A1D1DF1D1C800327AB6 /* Violin.mp3 */; };
+		E28EDC4A1DF5674800210088 /* Violin.plist in Resources */ = {isa = PBXBuildFile; fileRef = E28EDC491DF5674800210088 /* Violin.plist */; };
 		E2E5C03F1DF0987000DC3AFF /* tableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E5C03E1DF0987000DC3AFF /* tableViewController.swift */; };
 		E2E5C0411DF0AB9E00DC3AFF /* DescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E5C0401DF0AB9E00DC3AFF /* DescriptionViewController.swift */; };
 		E2FBED461DE765DF000431F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FBED451DE765DF000431F4 /* AppDelegate.swift */; };
@@ -29,6 +31,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E21D0A1D1DF1D1C800327AB6 /* Violin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Violin.mp3; sourceTree = "<group>"; };
+		E28EDC491DF5674800210088 /* Violin.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Violin.plist; sourceTree = "<group>"; };
 		E2E5C03E1DF0987000DC3AFF /* tableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tableViewController.swift; sourceTree = "<group>"; };
 		E2E5C0401DF0AB9E00DC3AFF /* DescriptionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DescriptionViewController.swift; sourceTree = "<group>"; };
 		E2FBED421DE765DF000431F4 /* MusicalNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicalNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,9 +66,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E21D0A1F1DF1D9BD00327AB6 /* music */ = {
+			isa = PBXGroup;
+			children = (
+				E21D0A1D1DF1D1C800327AB6 /* Violin.mp3 */,
+			);
+			name = music;
+			sourceTree = "<group>";
+		};
 		E2FBED391DE765DF000431F4 = {
 			isa = PBXGroup;
 			children = (
+				E28EDC491DF5674800210088 /* Violin.plist */,
 				E2FBED441DE765DF000431F4 /* MusicalNotes */,
 				E2FBED591DE765DF000431F4 /* MusicalNotesTests */,
 			);
@@ -85,13 +98,14 @@
 			children = (
 				E2FBED451DE765DF000431F4 /* AppDelegate.swift */,
 				E2FBED471DE765DF000431F4 /* ViewController.swift */,
-				E2FBED491DE765DF000431F4 /* Main.storyboard */,
+				E2E5C03E1DF0987000DC3AFF /* tableViewController.swift */,
 				E2E5C0401DF0AB9E00DC3AFF /* DescriptionViewController.swift */,
+				E2FBED651DE77178000431F4 /* SecondViewController.swift */,
+				E21D0A1F1DF1D9BD00327AB6 /* music */,
+				E2FBED491DE765DF000431F4 /* Main.storyboard */,
 				E2FBED4C1DE765DF000431F4 /* Assets.xcassets */,
 				E2FBED4E1DE765DF000431F4 /* LaunchScreen.storyboard */,
 				E2FBED511DE765DF000431F4 /* Info.plist */,
-				E2FBED651DE77178000431F4 /* SecondViewController.swift */,
-				E2E5C03E1DF0987000DC3AFF /* tableViewController.swift */,
 			);
 			path = MusicalNotes;
 			sourceTree = "<group>";
@@ -190,7 +204,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2FBED501DE765DF000431F4 /* LaunchScreen.storyboard in Resources */,
+				E21D0A1E1DF1D1C800327AB6 /* Violin.mp3 in Resources */,
 				E2FBED4D1DE765DF000431F4 /* Assets.xcassets in Resources */,
+				E28EDC4A1DF5674800210088 /* Violin.plist in Resources */,
 				E2FBED4B1DE765DF000431F4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
