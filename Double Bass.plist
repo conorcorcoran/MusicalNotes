@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Name</key>
+	<string>Double Bass</string>
+	<key>Video</key>
+	<string>https://www.youtube.com/embed/pyUZh_Cbw6Q</string>
+	<key>Famous Player</key>
+	<string>Charles Mingus</string>
+	<key>Description</key>
+	<string>The Double Bass or simply bass is the largest and lowest pitched bowed instrument in the modern symphony orchestra. While it’s a standard instrument in the orchestra’s string section  it has also been used in Jazz, blues, country and rock and roll.
+</string>
+</dict>
+</plist>

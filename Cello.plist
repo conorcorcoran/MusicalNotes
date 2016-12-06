@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Video</key>
+	<string>https://www.youtube.com/embed/e1C9kpMV2e8</string>
+	<key>Name</key>
+	<string>Cello</string>
+	<key>Famous Player</key>
+	<string>Mistislav Rostropovich</string>
+	<key>Description</key>
+	<string>The Cello is a bowed string instrument with four strings tuned in perfect fifths. It can be used as a solo instrument or as part on an ensemble. It is the second largest bowed string instrument. The were developed around the mid 1600s. </string>
+</dict>
+</plist>

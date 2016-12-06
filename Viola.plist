@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Video</key>
+	<string>https://www.youtube.com/embed/OiGXdpWxN3k</string>
+	<key>Famous Player</key>
+	<string>Ludwig van Beethoven</string>
+	<key>Description</key>
+	<string>The Viola can be bowed or plucked. It is slightly larger than a violin and has a deeper sound than it too. The strings are generally tuned to C3, G3, D4 and A4. </string>
+	<key>Name</key>
+	<string>Viola</string>
+</dict>
+</plist>

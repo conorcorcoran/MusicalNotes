@@ -11,6 +11,7 @@ import AVFoundation
 
 class DescriptionViewController: UIViewController {
     
+    @IBOutlet weak var instrumentImage: UIImageView!
     
     @IBOutlet weak var instrumentName: UILabel!
     
@@ -25,6 +26,12 @@ class DescriptionViewController: UIViewController {
     {
         player.play()
     }
+    
+    @IBAction func stop(_ sender: AnyObject)
+    {
+        player.stop()
+    }
+    
     var player:AVAudioPlayer = AVAudioPlayer()
     
     
@@ -33,8 +40,8 @@ class DescriptionViewController: UIViewController {
  
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        //get plist
+       
+        //get plist data
         var myDict: NSDictionary?
         if let path = Bundle.main.path(forResource: instrumentSelected, ofType: "plist") {
             myDict = NSDictionary(contentsOfFile: path)
@@ -42,6 +49,8 @@ class DescriptionViewController: UIViewController {
         
         //Assigning value for data for screen
        instrumentName.text =  myDict?.value(forKey: "Name") as! String?
+        
+       instrumentImage.image = UIImage(named: (instrumentName.text! + ".png"))
         
        instrumentDescription.text = myDict?.value(forKey: "Description") as! String!
         
@@ -76,7 +85,7 @@ class DescriptionViewController: UIViewController {
             
             
         }
-}
-
     
 
+    
+}

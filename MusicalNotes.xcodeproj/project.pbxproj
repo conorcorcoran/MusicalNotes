@@ -9,8 +9,18 @@
 /* Begin PBXBuildFile section */
 		E21D0A1E1DF1D1C800327AB6 /* Violin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E21D0A1D1DF1D1C800327AB6 /* Violin.mp3 */; };
 		E28EDC4A1DF5674800210088 /* Violin.plist in Resources */ = {isa = PBXBuildFile; fileRef = E28EDC491DF5674800210088 /* Violin.plist */; };
+		E28EDC4C1DF57D2900210088 /* Violin.png in Resources */ = {isa = PBXBuildFile; fileRef = E28EDC4B1DF57D2900210088 /* Violin.png */; };
 		E2E5C03F1DF0987000DC3AFF /* tableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E5C03E1DF0987000DC3AFF /* tableViewController.swift */; };
 		E2E5C0411DF0AB9E00DC3AFF /* DescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E5C0401DF0AB9E00DC3AFF /* DescriptionViewController.swift */; };
+		E2E785321DF73A7800368631 /* Viola.plist in Resources */ = {isa = PBXBuildFile; fileRef = E2E785311DF73A7800368631 /* Viola.plist */; };
+		E2E785341DF73AA300368631 /* Cello.plist in Resources */ = {isa = PBXBuildFile; fileRef = E2E785331DF73AA300368631 /* Cello.plist */; };
+		E2E785361DF73AC900368631 /* Double Bass.plist in Resources */ = {isa = PBXBuildFile; fileRef = E2E785351DF73AC900368631 /* Double Bass.plist */; };
+		E2E785381DF73F3600368631 /* Cello.png in Resources */ = {isa = PBXBuildFile; fileRef = E2E785371DF73F3600368631 /* Cello.png */; };
+		E2E7853A1DF73F4600368631 /* Double Bass.png in Resources */ = {isa = PBXBuildFile; fileRef = E2E785391DF73F4600368631 /* Double Bass.png */; };
+		E2E7853C1DF73F4F00368631 /* Viola.png in Resources */ = {isa = PBXBuildFile; fileRef = E2E7853B1DF73F4F00368631 /* Viola.png */; };
+		E2E7853E1DF73F9200368631 /* Viola.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E2E7853D1DF73F9200368631 /* Viola.mp3 */; };
+		E2E785401DF73FC200368631 /* Double Bass.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E2E7853F1DF73FC200368631 /* Double Bass.mp3 */; };
+		E2E785421DF73FD300368631 /* Cello.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E2E785411DF73FD300368631 /* Cello.mp3 */; };
 		E2FBED461DE765DF000431F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FBED451DE765DF000431F4 /* AppDelegate.swift */; };
 		E2FBED481DE765DF000431F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FBED471DE765DF000431F4 /* ViewController.swift */; };
 		E2FBED4B1DE765DF000431F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2FBED491DE765DF000431F4 /* Main.storyboard */; };
@@ -33,8 +43,18 @@
 /* Begin PBXFileReference section */
 		E21D0A1D1DF1D1C800327AB6 /* Violin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Violin.mp3; sourceTree = "<group>"; };
 		E28EDC491DF5674800210088 /* Violin.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Violin.plist; sourceTree = "<group>"; };
+		E28EDC4B1DF57D2900210088 /* Violin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Violin.png; path = MusicalNotes/Violin.png; sourceTree = "<group>"; };
 		E2E5C03E1DF0987000DC3AFF /* tableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tableViewController.swift; sourceTree = "<group>"; };
 		E2E5C0401DF0AB9E00DC3AFF /* DescriptionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DescriptionViewController.swift; sourceTree = "<group>"; };
+		E2E785311DF73A7800368631 /* Viola.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Viola.plist; sourceTree = "<group>"; };
+		E2E785331DF73AA300368631 /* Cello.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Cello.plist; sourceTree = "<group>"; };
+		E2E785351DF73AC900368631 /* Double Bass.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Double Bass.plist"; sourceTree = "<group>"; };
+		E2E785371DF73F3600368631 /* Cello.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cello.png; sourceTree = "<group>"; };
+		E2E785391DF73F4600368631 /* Double Bass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Double Bass.png"; sourceTree = "<group>"; };
+		E2E7853B1DF73F4F00368631 /* Viola.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Viola.png; sourceTree = "<group>"; };
+		E2E7853D1DF73F9200368631 /* Viola.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Viola.mp3; sourceTree = "<group>"; };
+		E2E7853F1DF73FC200368631 /* Double Bass.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Double Bass.mp3"; sourceTree = "<group>"; };
+		E2E785411DF73FD300368631 /* Cello.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Cello.mp3; sourceTree = "<group>"; };
 		E2FBED421DE765DF000431F4 /* MusicalNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicalNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2FBED451DE765DF000431F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E2FBED471DE765DF000431F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -66,18 +86,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E21D0A1F1DF1D9BD00327AB6 /* music */ = {
+		E21D0A1F1DF1D9BD00327AB6 /* Music */ = {
 			isa = PBXGroup;
 			children = (
+				E2E7853F1DF73FC200368631 /* Double Bass.mp3 */,
+				E2E785411DF73FD300368631 /* Cello.mp3 */,
 				E21D0A1D1DF1D1C800327AB6 /* Violin.mp3 */,
+				E2E7853D1DF73F9200368631 /* Viola.mp3 */,
 			);
-			name = music;
+			name = Music;
+			path = MusicalNotes;
+			sourceTree = "<group>";
+		};
+		E28EDC4D1DF57D4A00210088 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				E28EDC4B1DF57D2900210088 /* Violin.png */,
+				E2E785391DF73F4600368631 /* Double Bass.png */,
+				E2E7853B1DF73F4F00368631 /* Viola.png */,
+				E2E785371DF73F3600368631 /* Cello.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 		E2FBED391DE765DF000431F4 = {
 			isa = PBXGroup;
 			children = (
+				E21D0A1F1DF1D9BD00327AB6 /* Music */,
+				E28EDC4D1DF57D4A00210088 /* Images */,
 				E28EDC491DF5674800210088 /* Violin.plist */,
+				E2E785311DF73A7800368631 /* Viola.plist */,
+				E2E785331DF73AA300368631 /* Cello.plist */,
+				E2E785351DF73AC900368631 /* Double Bass.plist */,
 				E2FBED441DE765DF000431F4 /* MusicalNotes */,
 				E2FBED591DE765DF000431F4 /* MusicalNotesTests */,
 			);
@@ -101,7 +141,6 @@
 				E2E5C03E1DF0987000DC3AFF /* tableViewController.swift */,
 				E2E5C0401DF0AB9E00DC3AFF /* DescriptionViewController.swift */,
 				E2FBED651DE77178000431F4 /* SecondViewController.swift */,
-				E21D0A1F1DF1D9BD00327AB6 /* music */,
 				E2FBED491DE765DF000431F4 /* Main.storyboard */,
 				E2FBED4C1DE765DF000431F4 /* Assets.xcassets */,
 				E2FBED4E1DE765DF000431F4 /* LaunchScreen.storyboard */,
@@ -203,11 +242,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2E785361DF73AC900368631 /* Double Bass.plist in Resources */,
+				E2E785401DF73FC200368631 /* Double Bass.mp3 in Resources */,
+				E28EDC4C1DF57D2900210088 /* Violin.png in Resources */,
+				E2E785421DF73FD300368631 /* Cello.mp3 in Resources */,
 				E2FBED501DE765DF000431F4 /* LaunchScreen.storyboard in Resources */,
 				E21D0A1E1DF1D1C800327AB6 /* Violin.mp3 in Resources */,
+				E2E7853E1DF73F9200368631 /* Viola.mp3 in Resources */,
+				E2E7853A1DF73F4600368631 /* Double Bass.png in Resources */,
+				E2E785321DF73A7800368631 /* Viola.plist in Resources */,
 				E2FBED4D1DE765DF000431F4 /* Assets.xcassets in Resources */,
 				E28EDC4A1DF5674800210088 /* Violin.plist in Resources */,
+				E2E785341DF73AA300368631 /* Cello.plist in Resources */,
+				E2E785381DF73F3600368631 /* Cello.png in Resources */,
 				E2FBED4B1DE765DF000431F4 /* Main.storyboard in Resources */,
+				E2E7853C1DF73F4F00368631 /* Viola.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
