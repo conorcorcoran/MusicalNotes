@@ -12,7 +12,9 @@ class tableViewController: UIViewController, UITableViewDelegate, UITableViewDat
 
     @IBOutlet var tableView: UITableView!
     
-    var strings = ["Violin", "Viola", "Cello", "Double Bass"]
+    var Strings = ["Violin", "Viola", "Cello", "Double Bass"]
+    var Irish = ["Fiddle", "Tin Whiste", "Uilleann Pipes", "Banjo"]
+    var instrumentFamily = [""]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,22 +27,21 @@ class tableViewController: UIViewController, UITableViewDelegate, UITableViewDat
     
     
     
-    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return strings.count
+        return Strings.count
     }
     
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = UITableViewCell();
         
-        cell.textLabel?.text = strings[indexPath.row]
+        cell.textLabel?.text = instrumentFamily[indexPath.row]
         
         return cell
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        performSegue(withIdentifier: "tableSegue", sender: strings[indexPath.row])
+        performSegue(withIdentifier: "tableSegue", sender: Strings[indexPath.row])
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {

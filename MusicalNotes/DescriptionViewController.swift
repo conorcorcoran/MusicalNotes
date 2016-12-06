@@ -57,8 +57,10 @@ class DescriptionViewController: UIViewController {
        famousPlayer.text = myDict?.value(forKey: "Famous Player") as! String
         
         
-        
+        //images
 
+    
+        
         
         //Video View
         let YouTubeURL = myDict?.value(forKey: "Video") as! String
