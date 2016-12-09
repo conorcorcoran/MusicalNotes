@@ -12,36 +12,45 @@ class tableViewController: UIViewController, UITableViewDelegate, UITableViewDat
 
     @IBOutlet var tableView: UITableView!
     
-    var Strings = ["Violin", "Viola", "Cello", "Double Bass"]
-    var Irish = ["Fiddle", "Tin Whiste", "Uilleann Pipes", "Banjo"]
+    //var Strings = ["Violin", "Viola", "Cello", "Double Bass"]
+   // var Irish = ["Fiddle", "Tin Whiste", "Uilleann Pipes", "Banjo"]
+    var selectedFamily = [String]()
+    
+    
     var instrumentFamily = [""]
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        var family = selectedFamily{
+            didSet
+            {
+              family = selectedFamily
+            }
+        }
 
         tableView.dataSource = self
         tableView.delegate = self
-        
         
        }
     
     
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return Strings.count
+        return selectedFamily.count
     }
     
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = UITableViewCell();
         
-        cell.textLabel?.text = instrumentFamily[indexPath.row]
+        cell.textLabel?.text = selectedFamily[indexPath.row]
         
         return cell
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        performSegue(withIdentifier: "tableSegue", sender: Strings[indexPath.row])
+        performSegue(withIdentifier: "tableSegue", sender: selectedFamily[indexPath.row])
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {

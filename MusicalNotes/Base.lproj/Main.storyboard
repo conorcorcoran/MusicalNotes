@@ -61,6 +61,9 @@
                                 <state key="normal" title="Irish">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="SNH-PM-1K5" kind="show" id="1fH-XW-n4d"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VwW-MU-ipC">
                                 <frame key="frameInset" minX="212" minY="303" width="116" height="60"/>
@@ -87,6 +90,14 @@
                         <color key="backgroundColor" red="0.13333333333333333" green="0.18431372549019609" blue="0.24313725490196078" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="3ja-Em-Hnk"/>
+                    <connections>
+                        <outlet property="brassButton" destination="DuW-Op-aRO" id="YG1-FQ-5pJ"/>
+                        <outlet property="irishButton" destination="7XZ-h9-fFN" id="cEX-rX-QHd"/>
+                        <outlet property="miscButton" destination="atz-Od-PQr" id="7nF-M0-opn"/>
+                        <outlet property="percussionButton" destination="VwW-MU-ipC" id="nlF-qG-oQx"/>
+                        <outlet property="stringsButton" destination="9Hh-cO-ApY" id="yd0-PU-Ifp"/>
+                        <outlet property="woodwindButton" destination="B4t-1j-AgD" id="6wb-IM-vDX"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -150,7 +161,7 @@
                                                 <frame key="frameInset" minY="214" width="375" height="21"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.87058823529411766" green="0.20784313725490197" blue="0.1803921568627451" alpha="1" colorSpace="calibratedRGB"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <fontDescription key="fontDescription" name="SnellRoundhand-Black" family="Snell Roundhand" pointSize="17"/>
                                                 <color key="textColor" red="0.99607843137254903" green="0.95686274509803926" blue="0.96078431372549022" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -166,7 +177,7 @@
                                                 <frame key="frameInset" minY="423" width="375" height="21"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.87058823529411766" green="0.20784313725490197" blue="0.1803921568627451" alpha="1" colorSpace="calibratedRGB"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <fontDescription key="fontDescription" name="SnellRoundhand-Black" family="Snell Roundhand" pointSize="17"/>
                                                 <color key="textColor" red="0.99607843137254903" green="0.95686274509803926" blue="0.96078431372549022" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -182,7 +193,7 @@
                                                 <frame key="frameInset" minY="529" width="375" height="21"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.87058823529411766" green="0.20784313725490197" blue="0.1803921568627451" alpha="1" colorSpace="calibratedRGB"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <fontDescription key="fontDescription" name="SnellRoundhand-Black" family="Snell Roundhand" pointSize="17"/>
                                                 <color key="textColor" red="0.99607843137254903" green="0.95686274509803926" blue="0.96078431372549022" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -217,7 +228,7 @@
                                                 <frame key="frameInset" minY="789" width="375" height="21"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.87058823529999996" green="0.20784313730000001" blue="0.18039215689999999" alpha="1" colorSpace="calibratedRGB"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <fontDescription key="fontDescription" name="SnellRoundhand-Black" family="Snell Roundhand" pointSize="17"/>
                                                 <color key="textColor" red="0.99607843139999996" green="0.95686274510000002" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -225,7 +236,7 @@
                                                 <frame key="frameInset" width="375" height="21"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="0.87058823529411766" green="0.20784313725490197" blue="0.1803921568627451" alpha="1" colorSpace="calibratedRGB"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <fontDescription key="fontDescription" name="SnellRoundhand-Black" family="Snell Roundhand" pointSize="17"/>
                                                 <color key="textColor" red="0.99607843137254903" green="0.95686274509803926" blue="0.96078431372549022" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -287,4 +298,7 @@
             <point key="canvasLocation" x="157.59999999999999" y="131.78410794602701"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="AE1-8e-Gqg"/>
+    </inferredMetricsTieBreakers>
 </document>

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E21D0A1E1DF1D1C800327AB6 /* Violin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E21D0A1D1DF1D1C800327AB6 /* Violin.mp3 */; };
+		E24F294E1DFAD3A400950792 /* Splash.png in Resources */ = {isa = PBXBuildFile; fileRef = E24F294D1DFAD3A400950792 /* Splash.png */; };
 		E28EDC4A1DF5674800210088 /* Violin.plist in Resources */ = {isa = PBXBuildFile; fileRef = E28EDC491DF5674800210088 /* Violin.plist */; };
 		E28EDC4C1DF57D2900210088 /* Violin.png in Resources */ = {isa = PBXBuildFile; fileRef = E28EDC4B1DF57D2900210088 /* Violin.png */; };
 		E2E5C03F1DF0987000DC3AFF /* tableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E5C03E1DF0987000DC3AFF /* tableViewController.swift */; };
@@ -42,6 +43,7 @@
 
 /* Begin PBXFileReference section */
 		E21D0A1D1DF1D1C800327AB6 /* Violin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Violin.mp3; sourceTree = "<group>"; };
+		E24F294D1DFAD3A400950792 /* Splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Splash.png; sourceTree = "<group>"; };
 		E28EDC491DF5674800210088 /* Violin.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Violin.plist; sourceTree = "<group>"; };
 		E28EDC4B1DF57D2900210088 /* Violin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Violin.png; path = MusicalNotes/Violin.png; sourceTree = "<group>"; };
 		E2E5C03E1DF0987000DC3AFF /* tableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tableViewController.swift; sourceTree = "<group>"; };
@@ -142,8 +144,9 @@
 				E2E5C0401DF0AB9E00DC3AFF /* DescriptionViewController.swift */,
 				E2FBED651DE77178000431F4 /* SecondViewController.swift */,
 				E2FBED491DE765DF000431F4 /* Main.storyboard */,
-				E2FBED4C1DE765DF000431F4 /* Assets.xcassets */,
 				E2FBED4E1DE765DF000431F4 /* LaunchScreen.storyboard */,
+				E2FBED4C1DE765DF000431F4 /* Assets.xcassets */,
+				E24F294D1DFAD3A400950792 /* Splash.png */,
 				E2FBED511DE765DF000431F4 /* Info.plist */,
 			);
 			path = MusicalNotes;
@@ -256,6 +259,7 @@
 				E2E785341DF73AA300368631 /* Cello.plist in Resources */,
 				E2E785381DF73F3600368631 /* Cello.png in Resources */,
 				E2FBED4B1DE765DF000431F4 /* Main.storyboard in Resources */,
+				E24F294E1DFAD3A400950792 /* Splash.png in Resources */,
 				E2E7853C1DF73F4F00368631 /* Viola.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
