@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Name</key>
+	<string>Fiddle</string>
+	<key>Famous Player</key>
+	<string>Frankie Gavin</string>
+	<key>Description</key>
+	<string>Fiddle is another name for the bowed string musical instrument more often called a violin. It is also a colloquial term for the instrument used by players in all genres, including classical music. Fiddle playing, or fiddling, refers to various styles of music. It is one of the most used instruments in Irish Music.</string>
+	<key>Video</key>
+	<string>https://www.youtube.com/embed/AygW5EbSpSI</string>
+</dict>
+</plist>

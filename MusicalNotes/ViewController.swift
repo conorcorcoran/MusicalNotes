@@ -30,7 +30,7 @@ class ViewController: UIViewController {
     var woodwind = [""]
     var percussion = [""]
     var misc = [""]
-    var irish = ["Fiddle", "Tin Whiste", "Uilleann Pipes", "Banjo"]
+    var irish = ["Fiddle", "Tin Whistle", "Uilleann Pipes", "Banjo"]
     
     
     override func viewDidLoad() {

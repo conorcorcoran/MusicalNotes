@@ -202,28 +202,6 @@
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                             </webView>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dLa-yx-pSN">
-                                                <frame key="frameInset" minX="227" minY="842" width="130" height="30"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" red="0.87058823529999996" green="0.20784313730000001" blue="0.18039215689999999" alpha="1" colorSpace="calibratedRGB"/>
-                                                <state key="normal" title="Stop">
-                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                </state>
-                                                <connections>
-                                                    <action selector="stop:" destination="KMY-Df-Lzc" eventType="touchUpInside" id="f89-Fj-VeQ"/>
-                                                </connections>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VJ8-dQ-XSo">
-                                                <frame key="frameInset" minX="27" minY="842" width="130" height="30"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" red="0.87058823529411766" green="0.20784313725490197" blue="0.1803921568627451" alpha="1" colorSpace="calibratedRGB"/>
-                                                <state key="normal" title="Play">
-                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                </state>
-                                                <connections>
-                                                    <action selector="play:" destination="KMY-Df-Lzc" eventType="touchUpInside" id="m8y-Xg-qwQ"/>
-                                                </connections>
-                                            </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Music" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lJC-2M-l59" userLabel="Music">
                                                 <frame key="frameInset" minY="789" width="375" height="21"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -240,6 +218,37 @@
                                                 <color key="textColor" red="0.99607843137254903" green="0.95686274509803926" blue="0.96078431372549022" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="04t-kO-dfF">
+                                                <frame key="frameInset" minX="54" minY="823" width="52" height="69"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button" image="PlayButton.png"/>
+                                                <connections>
+                                                    <action selector="play:" destination="KMY-Df-Lzc" eventType="touchUpInside" id="5yk-LQ-afo"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gew-8K-Ily">
+                                                <frame key="frameInset" minX="284" minY="827" width="62" height="62"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button" image="stopButton.png"/>
+                                                <connections>
+                                                    <action selector="stop:" destination="KMY-Df-Lzc" eventType="touchUpInside" id="uiB-rS-8Ik"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qQq-mn-kE6">
+                                                <frame key="frameInset" minX="159" minY="823" width="63" height="69"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button" image="pauseButton.png"/>
+                                                <connections>
+                                                    <action selector="pause:" destination="KMY-Df-Lzc" eventType="touchUpInside" id="vlr-fi-gbi"/>
+                                                </connections>
+                                            </button>
+                                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="y4X-77-iv4">
+                                                <frame key="frameInset" minX="67" minY="900" width="241" height="31"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <connections>
+                                                    <action selector="volumeControl:" destination="KMY-Df-Lzc" eventType="valueChanged" id="QjK-m7-IS9"/>
+                                                </connections>
+                                            </slider>
                                         </subviews>
                                         <color key="backgroundColor" red="0.13333333333333333" green="0.18431372549019609" blue="0.24313725490196078" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
@@ -272,6 +281,7 @@
                         <outlet property="instrumentDescription" destination="xhb-hU-e9z" id="itv-Yu-dwM"/>
                         <outlet property="instrumentImage" destination="IaG-w5-C8s" id="kPj-V0-8lB"/>
                         <outlet property="instrumentName" destination="rGj-uj-hNj" id="zll-Iq-zib"/>
+                        <outlet property="myVolumeController" destination="y4X-77-iv4" id="Yq0-Mk-Bq1"/>
                         <outlet property="videoView" destination="mFn-rL-bbg" id="oa1-Ov-Ahg"/>
                     </connections>
                 </viewController>
@@ -298,6 +308,11 @@
             <point key="canvasLocation" x="157.59999999999999" y="131.78410794602701"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="PlayButton.png" width="346" height="417"/>
+        <image name="pauseButton.png" width="272" height="343"/>
+        <image name="stopButton.png" width="417" height="417"/>
+    </resources>
     <inferredMetricsTieBreakers>
         <segue reference="AE1-8e-Gqg"/>
     </inferredMetricsTieBreakers>

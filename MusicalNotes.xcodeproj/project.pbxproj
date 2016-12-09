@@ -9,8 +9,23 @@
 /* Begin PBXBuildFile section */
 		E21D0A1E1DF1D1C800327AB6 /* Violin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E21D0A1D1DF1D1C800327AB6 /* Violin.mp3 */; };
 		E24F294E1DFAD3A400950792 /* Splash.png in Resources */ = {isa = PBXBuildFile; fileRef = E24F294D1DFAD3A400950792 /* Splash.png */; };
+		E24F29501DFADD2000950792 /* Banjo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E24F294F1DFADD2000950792 /* Banjo.mp3 */; };
+		E24F29521DFADD3100950792 /* Uilleann Pipes.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E24F29511DFADD3100950792 /* Uilleann Pipes.mp3 */; };
+		E24F29541DFADD5900950792 /* Tin Whistle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E24F29531DFADD5900950792 /* Tin Whistle.mp3 */; };
+		E24F29561DFADD7E00950792 /* Fiddle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E24F29551DFADD7E00950792 /* Fiddle.mp3 */; };
+		E24F29581DFADE4D00950792 /* Fiddle.plist in Resources */ = {isa = PBXBuildFile; fileRef = E24F29571DFADE4D00950792 /* Fiddle.plist */; };
+		E24F295A1DFADEC500950792 /* Tin Whistle.plist in Resources */ = {isa = PBXBuildFile; fileRef = E24F29591DFADEC500950792 /* Tin Whistle.plist */; };
+		E24F295C1DFADF2500950792 /* Uilleann Pipes.plist in Resources */ = {isa = PBXBuildFile; fileRef = E24F295B1DFADF2500950792 /* Uilleann Pipes.plist */; };
+		E24F295E1DFADFB400950792 /* Banjo.plist in Resources */ = {isa = PBXBuildFile; fileRef = E24F295D1DFADFB400950792 /* Banjo.plist */; };
+		E24F29631DFAE39D00950792 /* Fiddle.png in Resources */ = {isa = PBXBuildFile; fileRef = E24F295F1DFAE39D00950792 /* Fiddle.png */; };
+		E24F29641DFAE39D00950792 /* Uilleann Pipes.png in Resources */ = {isa = PBXBuildFile; fileRef = E24F29601DFAE39D00950792 /* Uilleann Pipes.png */; };
+		E24F29661DFAE39D00950792 /* Banjo.png in Resources */ = {isa = PBXBuildFile; fileRef = E24F29621DFAE39D00950792 /* Banjo.png */; };
 		E28EDC4A1DF5674800210088 /* Violin.plist in Resources */ = {isa = PBXBuildFile; fileRef = E28EDC491DF5674800210088 /* Violin.plist */; };
 		E28EDC4C1DF57D2900210088 /* Violin.png in Resources */ = {isa = PBXBuildFile; fileRef = E28EDC4B1DF57D2900210088 /* Violin.png */; };
+		E2E0602E1DFAE5A900202E41 /* Tin Whistle.png in Resources */ = {isa = PBXBuildFile; fileRef = E2E0602D1DFAE5A900202E41 /* Tin Whistle.png */; };
+		E2E060361DFAEB3900202E41 /* PlayButton.png in Resources */ = {isa = PBXBuildFile; fileRef = E2E060351DFAEB3900202E41 /* PlayButton.png */; };
+		E2E060381DFAEC3B00202E41 /* stopButton.png in Resources */ = {isa = PBXBuildFile; fileRef = E2E060371DFAEC3B00202E41 /* stopButton.png */; };
+		E2E0603A1DFAED9400202E41 /* pauseButton.png in Resources */ = {isa = PBXBuildFile; fileRef = E2E060391DFAED9400202E41 /* pauseButton.png */; };
 		E2E5C03F1DF0987000DC3AFF /* tableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E5C03E1DF0987000DC3AFF /* tableViewController.swift */; };
 		E2E5C0411DF0AB9E00DC3AFF /* DescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E5C0401DF0AB9E00DC3AFF /* DescriptionViewController.swift */; };
 		E2E785321DF73A7800368631 /* Viola.plist in Resources */ = {isa = PBXBuildFile; fileRef = E2E785311DF73A7800368631 /* Viola.plist */; };
@@ -44,8 +59,23 @@
 /* Begin PBXFileReference section */
 		E21D0A1D1DF1D1C800327AB6 /* Violin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Violin.mp3; sourceTree = "<group>"; };
 		E24F294D1DFAD3A400950792 /* Splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Splash.png; sourceTree = "<group>"; };
+		E24F294F1DFADD2000950792 /* Banjo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Banjo.mp3; sourceTree = "<group>"; };
+		E24F29511DFADD3100950792 /* Uilleann Pipes.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Uilleann Pipes.mp3"; sourceTree = "<group>"; };
+		E24F29531DFADD5900950792 /* Tin Whistle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Tin Whistle.mp3"; sourceTree = "<group>"; };
+		E24F29551DFADD7E00950792 /* Fiddle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Fiddle.mp3; sourceTree = "<group>"; };
+		E24F29571DFADE4D00950792 /* Fiddle.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Fiddle.plist; sourceTree = "<group>"; };
+		E24F29591DFADEC500950792 /* Tin Whistle.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Tin Whistle.plist"; sourceTree = "<group>"; };
+		E24F295B1DFADF2500950792 /* Uilleann Pipes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Uilleann Pipes.plist"; sourceTree = "<group>"; };
+		E24F295D1DFADFB400950792 /* Banjo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Banjo.plist; sourceTree = "<group>"; };
+		E24F295F1DFAE39D00950792 /* Fiddle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Fiddle.png; sourceTree = "<group>"; };
+		E24F29601DFAE39D00950792 /* Uilleann Pipes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Uilleann Pipes.png"; sourceTree = "<group>"; };
+		E24F29621DFAE39D00950792 /* Banjo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Banjo.png; sourceTree = "<group>"; };
 		E28EDC491DF5674800210088 /* Violin.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Violin.plist; sourceTree = "<group>"; };
 		E28EDC4B1DF57D2900210088 /* Violin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Violin.png; path = MusicalNotes/Violin.png; sourceTree = "<group>"; };
+		E2E0602D1DFAE5A900202E41 /* Tin Whistle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tin Whistle.png"; sourceTree = "<group>"; };
+		E2E060351DFAEB3900202E41 /* PlayButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PlayButton.png; sourceTree = "<group>"; };
+		E2E060371DFAEC3B00202E41 /* stopButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stopButton.png; sourceTree = "<group>"; };
+		E2E060391DFAED9400202E41 /* pauseButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pauseButton.png; sourceTree = "<group>"; };
 		E2E5C03E1DF0987000DC3AFF /* tableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tableViewController.swift; sourceTree = "<group>"; };
 		E2E5C0401DF0AB9E00DC3AFF /* DescriptionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DescriptionViewController.swift; sourceTree = "<group>"; };
 		E2E785311DF73A7800368631 /* Viola.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Viola.plist; sourceTree = "<group>"; };
@@ -91,6 +121,10 @@
 		E21D0A1F1DF1D9BD00327AB6 /* Music */ = {
 			isa = PBXGroup;
 			children = (
+				E24F29551DFADD7E00950792 /* Fiddle.mp3 */,
+				E24F29531DFADD5900950792 /* Tin Whistle.mp3 */,
+				E24F29511DFADD3100950792 /* Uilleann Pipes.mp3 */,
+				E24F294F1DFADD2000950792 /* Banjo.mp3 */,
 				E2E7853F1DF73FC200368631 /* Double Bass.mp3 */,
 				E2E785411DF73FD300368631 /* Cello.mp3 */,
 				E21D0A1D1DF1D1C800327AB6 /* Violin.mp3 */,
@@ -103,6 +137,10 @@
 		E28EDC4D1DF57D4A00210088 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				E24F295F1DFAE39D00950792 /* Fiddle.png */,
+				E2E0602D1DFAE5A900202E41 /* Tin Whistle.png */,
+				E24F29601DFAE39D00950792 /* Uilleann Pipes.png */,
+				E24F29621DFAE39D00950792 /* Banjo.png */,
 				E28EDC4B1DF57D2900210088 /* Violin.png */,
 				E2E785391DF73F4600368631 /* Double Bass.png */,
 				E2E7853B1DF73F4F00368631 /* Viola.png */,
@@ -120,6 +158,10 @@
 				E2E785311DF73A7800368631 /* Viola.plist */,
 				E2E785331DF73AA300368631 /* Cello.plist */,
 				E2E785351DF73AC900368631 /* Double Bass.plist */,
+				E24F29571DFADE4D00950792 /* Fiddle.plist */,
+				E24F29591DFADEC500950792 /* Tin Whistle.plist */,
+				E24F295B1DFADF2500950792 /* Uilleann Pipes.plist */,
+				E24F295D1DFADFB400950792 /* Banjo.plist */,
 				E2FBED441DE765DF000431F4 /* MusicalNotes */,
 				E2FBED591DE765DF000431F4 /* MusicalNotesTests */,
 			);
@@ -146,7 +188,10 @@
 				E2FBED491DE765DF000431F4 /* Main.storyboard */,
 				E2FBED4E1DE765DF000431F4 /* LaunchScreen.storyboard */,
 				E2FBED4C1DE765DF000431F4 /* Assets.xcassets */,
+				E2E060351DFAEB3900202E41 /* PlayButton.png */,
+				E2E060391DFAED9400202E41 /* pauseButton.png */,
 				E24F294D1DFAD3A400950792 /* Splash.png */,
+				E2E060371DFAEC3B00202E41 /* stopButton.png */,
 				E2FBED511DE765DF000431F4 /* Info.plist */,
 			);
 			path = MusicalNotes;
@@ -245,20 +290,35 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2E060361DFAEB3900202E41 /* PlayButton.png in Resources */,
 				E2E785361DF73AC900368631 /* Double Bass.plist in Resources */,
+				E24F29521DFADD3100950792 /* Uilleann Pipes.mp3 in Resources */,
 				E2E785401DF73FC200368631 /* Double Bass.mp3 in Resources */,
 				E28EDC4C1DF57D2900210088 /* Violin.png in Resources */,
+				E24F29561DFADD7E00950792 /* Fiddle.mp3 in Resources */,
+				E2E0602E1DFAE5A900202E41 /* Tin Whistle.png in Resources */,
 				E2E785421DF73FD300368631 /* Cello.mp3 in Resources */,
+				E24F295C1DFADF2500950792 /* Uilleann Pipes.plist in Resources */,
+				E24F29541DFADD5900950792 /* Tin Whistle.mp3 in Resources */,
 				E2FBED501DE765DF000431F4 /* LaunchScreen.storyboard in Resources */,
 				E21D0A1E1DF1D1C800327AB6 /* Violin.mp3 in Resources */,
 				E2E7853E1DF73F9200368631 /* Viola.mp3 in Resources */,
 				E2E7853A1DF73F4600368631 /* Double Bass.png in Resources */,
+				E24F29641DFAE39D00950792 /* Uilleann Pipes.png in Resources */,
+				E2E0603A1DFAED9400202E41 /* pauseButton.png in Resources */,
 				E2E785321DF73A7800368631 /* Viola.plist in Resources */,
 				E2FBED4D1DE765DF000431F4 /* Assets.xcassets in Resources */,
 				E28EDC4A1DF5674800210088 /* Violin.plist in Resources */,
+				E24F295E1DFADFB400950792 /* Banjo.plist in Resources */,
+				E24F29631DFAE39D00950792 /* Fiddle.png in Resources */,
+				E24F29581DFADE4D00950792 /* Fiddle.plist in Resources */,
 				E2E785341DF73AA300368631 /* Cello.plist in Resources */,
+				E24F295A1DFADEC500950792 /* Tin Whistle.plist in Resources */,
+				E24F29661DFAE39D00950792 /* Banjo.png in Resources */,
 				E2E785381DF73F3600368631 /* Cello.png in Resources */,
 				E2FBED4B1DE765DF000431F4 /* Main.storyboard in Resources */,
+				E2E060381DFAEC3B00202E41 /* stopButton.png in Resources */,
+				E24F29501DFADD2000950792 /* Banjo.mp3 in Resources */,
 				E24F294E1DFAD3A400950792 /* Splash.png in Resources */,
 				E2E7853C1DF73F4F00368631 /* Viola.png in Resources */,
 			);

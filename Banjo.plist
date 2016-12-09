@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Name</key>
+	<string>Banjo</string>
+	<key>Famous Player</key>
+	<string>Barney McKenna </string>
+	<key>Description</key>
+	<string>The four-string tenor banjo is played as a melody instrument by Irish traditional players, and is commonly tuned GDAE, an octave below the fiddle. It was brought to Ireland by returned emigrants from the United States, where it had been developed by African slaves. It is seldom strummed in Irish music (although older recordings will sometimes feature the banjo used as a backing instrument), instead being played as a melody instrument using either a plectrum or a &quot;thimble&quot;.</string>
+	<key>Video</key>
+	<string>https://www.youtube.com/embed/yiOWd7ArmWQ</string>
+</dict>
+</plist>

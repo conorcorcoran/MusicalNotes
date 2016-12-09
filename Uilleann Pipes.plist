@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Name</key>
+	<string>Uilleann Pipes</string>
+	<key>Famous Player</key>
+	<string>Davy Spillane</string>
+	<key>Description</key>
+	<string>The Uilleann pipes are the characteristic national bagpipe of Ireland. Earlier known in English as &quot;union pipes&quot;, their current name is a partial translation of the Irish Language term píobaí uilleann (literally, &quot;pipes of the elbow&quot;), from their method of inflation. There is no historical record of the name or use of the term &apos;uilleann pipes&apos; before the twentieth century. </string>
+	<key>Video</key>
+	<string>https://www.youtube.com/embed/Mwxga8udIio</string>
+</dict>
+</plist>

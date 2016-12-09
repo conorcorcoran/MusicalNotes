@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Name</key>
+	<string>Tin Whistle</string>
+	<key>Famous Player</key>
+	<string>Mary Bergin</string>
+	<key>Description</key>
+	<string>The tin whistle, also called the penny whistle is a woodwind instrument. It is a type of fipple flute, putting it in the same class as the recorder, Native American flute and other woodwind instruments that meet such criteria. A tin whistle player is called a tin whistler or simply a whistler. The tin whistle is closely associated with Celtic Music.</string>
+	<key>Video</key>
+	<string>https://www.youtube.com/embed/rdJYbOkbetQ</string>
+</dict>
+</plist>

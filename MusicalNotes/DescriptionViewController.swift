@@ -30,6 +30,19 @@ class DescriptionViewController: UIViewController {
     @IBAction func stop(_ sender: AnyObject)
     {
         player.stop()
+        player.currentTime = 0
+    }
+    
+    @IBAction func pause(_ sender: AnyObject)
+    {
+        player.pause()
+    }
+    
+    @IBOutlet weak var myVolumeController: UISlider!
+    
+    
+    @IBAction func volumeControl(_ sender: AnyObject) {
+        player.volume = myVolumeController.value
     }
     
     var player:AVAudioPlayer = AVAudioPlayer()
